@@ -11,4 +11,4 @@ for brands, I simply converted it to csv.
 3. brands table uses brandCode to link brandCode in receipts_item table. (one to one) 
 
 ### relational diagram
-![This is an image](relational_diagram.png)
+![This is an image](relationalDiagram.png)
