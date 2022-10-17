@@ -1,4 +1,8 @@
-select "name", "category", "topBrand", sum("totalSpent"), 
+select "name", "category", "topBrand", 
+avg("totalSpent") avg_totalSpent, 
+avg("purchasedItemCount") avg_purchaseItemCount,
+sum("purchasedItemCount") sum_purchaseItemCount,
+sum("totalSpent") sum_totalSpent, 
 rank()over(order by sum("totalSpent") desc) as rank
 from users u
 right join receipts r on u.id=r."userId"
