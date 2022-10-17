@@ -1,4 +1,4 @@
-## First: Review Existing Unstructured Data and Diagram a New Structured Relational Data M
+## First: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model
 Three sample data files: users, receipts, and brands. 
 After reviewing their structures, 
 for users, I simply converted it to csv,
