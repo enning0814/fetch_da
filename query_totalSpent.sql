@@ -1,3 +1,6 @@
+# Second: Write a query that directly answers a predetermined question from a business stakeholder
+## Which brand has the most spend among users who were created within the past 6 months?
+### sql query
 select "name", "category", "topBrand", 
 avg("totalSpent") avg_totalSpent, 
 avg("purchasedItemCount") avg_purchaseItemCount,
