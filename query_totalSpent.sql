@@ -12,4 +12,3 @@ where "name" is not null
 and "createdDate" between '2020-09-01' and '2021-02-28'
 group by "name", "category", "topBrand"
 
-$ git add --all
