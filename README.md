@@ -46,6 +46,6 @@ En-Ning Chiang.
 
 
 ## Note: Convert unstructured data to structured data
-[this is Python code](./Get_Data.ipynb)
+[this is Python code](./Get_Data.ipynb).  
 This is file about how I converted unstructured data to structured data. 
 I separated “rewardsReceiptItemList” from Receipt table. 
