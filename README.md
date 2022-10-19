@@ -21,7 +21,7 @@ SQL Query Result:
 3. Five top 5 brands have diverse categories: beverages, dairy, grocery, household, and snacks. However, they are related to basic commodities or daily necessities.  
 
 ## Third: Evaluate Data Quality Issues in the Data Provided
-Link: 
+Link: [this is sql query](./Data_Quality_Issue.ipynb)
 
 ## Fourth: Communicate with Stakeholders
 Hello xxx, 
