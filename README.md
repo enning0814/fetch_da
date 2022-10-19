@@ -14,14 +14,15 @@ for brands, I simply converted it to csv.
 ![This is an image](relationalDiagram.png)
 
 ## Second: Write a query that directly answers a predetermined question from a business stakeholder
-Link: [this is sql query](./)
+Link: [this is SQL query](./query_totalSpent.sql)     
+
 SQL Query Result: 
 1. Pepsi, Kraft, KNORR, Kleenex, and Doritos are 5 brands that have the top 5 total spend among users who were created during the past 6 months (2020-09-01 to 2021-02-28). Among these top 5 brands, only Doritos is the top brand. 
 2. Pepsi is the number 1 brand with total spend. It is not a top brand. It belongs to Beverage category. The average purchase item amount of Pepsi is 268.93 and the total purchase item amount of Pepsi is 19,901. The average spend on Pepsi is $1,065.82 and the total spend on Pepsi is $78,870.85. 
 3. Five top 5 brands have diverse categories: beverages, dairy, grocery, household, and snacks. However, they are related to basic commodities or daily necessities.  
 
 ## Third: Evaluate Data Quality Issues in the Data Provided
-Link: [this is sql query](./Data_Quality_Issue.ipynb)
+Link: [this is Python code](./Data_Quality_Issue.ipynb)
 
 ## Fourth: Communicate with Stakeholders
 Hello xxx, 
@@ -41,4 +42,9 @@ For further analysis, I also have some scaling concerns. The data format now is 
 I would like to discuss further plans with you! Feel free to reach out to me. I am looking forward to hearing from you. 
 
 Best regards,
-En-Ning Chiang.     .  
+En-Ning Chiang. 
+
+
+## Note: Convert unstructured data to structured data
+[this is Python code](./)
+This is file about how I converted unstructured data to structured data. 
